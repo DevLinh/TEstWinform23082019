@@ -188,5 +188,11 @@ namespace Test1
         {
             setButton(true);
         }
+
+        private void btnIn_Click(object sender, EventArgs e)
+        {
+            rp report = new Test1.rp();
+            report.Show();
+        }
     }
 }
